@@ -1,0 +1,97 @@
+
+
+  body {
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+ }
+/*HEADER AND NAVIGATION BAR STYLE*/
+/*Below is the navigation bar style*/
+.nav{
+    width: 100%;
+    background-color: black;
+    height:80px ;
+  }
+  
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+  
+  ul li{
+    float: left;
+    margin-top:20px ;
+  
+  }
+  ul li a{
+    width: 150px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  
+  a.active {
+    background-color: black;
+    color:white;
+  }
+
+  a:hover{
+    background-color: gray;
+  }
+  ul li ul{
+    background-color: teal;
+  }
+  ul li ul li{
+    float:none;
+  }
+   h2 { color: whitesmoke; 
+             font-family: 'Lobster', cursive;
+              font-size: 60px; font-weight: normal;
+               line-height: 30px;
+               font-style: oblique;
+               text-align: center; 
+               padding: 30px;
+               text-align: center;
+          margin: 0 0 18px; text-shadow: 10px 0 0 gray }
+       .Image{
+             margin-left: 0;
+             margin-right: 0;
+            align-items: center;
+            display: flex;
+            height: 250px;
+            width: 300px;
+            float: center;
+          }
+        h1 { color: whitesmoke; 
+     font-family: 'Lobster', cursive;
+      font-size: 60px; font-weight: normal;
+       line-height: 30px;
+       font-style: oblique;
+       text-align: center; 
+       padding: 30px;
+       text-align: center;
+   
+      margin: 0 0 18px; text-shadow: 10px 0 0 gray }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        text-align: center;
+          }
